@@ -1,0 +1,38 @@
+$default: #363636;
+$title: #2B0955;
+$accent: #2B0955;
+$accentyellow: #FBC508;
+
+
+%gilroy-700 {
+   font-family: "gilroy-bold", sans-serif;
+   font-weight: 700;
+}
+%gilroy-400 {
+   font-family: "gilroy-regular", sans-serif;
+   font-weight: 400;
+}
+%inter-700 {
+   font-family: "Inter-Boldr", sans-serif;
+   font-weight: 700;
+}
+%lato-900 {
+   font-family: "Lato-Black", sans-serif;
+   font-weight: 900;
+}
+%lato-400 {
+   font-family: "Lato-Regular", sans-serif;
+   font-weight: 400;
+}
+%mulish-700 {
+   font-family: "Mulish-Bold", sans-serif;
+   font-weight: 700;
+}
+
+%label-hidden {
+   overflow: hidden;
+   width: 1px;
+   height: 1px;
+   clip: rect(0 0 0 0);
+   position: absolute;
+}

@@ -1,0 +1,29 @@
+html,
+body {
+   height: 100%;
+   overflow-x: hidden;
+}
+
+body {
+   color: $default;
+   user-select: none;
+   font-size: 16px;
+   line-height: 26px;
+   @extend %poppins-400;
+   display: flex;
+   flex-direction: column;
+}
+
+main {
+   flex-grow: 1;
+}
+
+button {
+   border: none;
+   outline: none;
+}
+
+
+.container {
+   max-width: 1200px;
+}
